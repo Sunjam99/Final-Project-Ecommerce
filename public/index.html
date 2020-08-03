@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#080808" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -29,15 +29,28 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-analytics.js"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyA6yMGbnrupZ_kz6Udn7joklppjZQM08-g",
+          authDomain: "ecommerce-final-cdf19.firebaseapp.com",
+          databaseURL: "https://ecommerce-final-cdf19.firebaseio.com",
+          projectId: "ecommerce-final-cdf19",
+          storageBucket: "ecommerce-final-cdf19.appspot.com",
+          messagingSenderId: "791929476830",
+          appId: "1:791929476830:web:8e4a827cd6ad607750d44f",
+          measurementId: "G-1TBKKDKC7H"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
   </body>
 </html>
