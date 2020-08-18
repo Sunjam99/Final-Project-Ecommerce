@@ -59,6 +59,14 @@ export default {
       shortDesc: "The view of the Person who has been it for a while",
       description:
         "Take a look at things from my view and see what i see for its the last time."
+    },
+    {
+      name: "LuckTown",
+      stock: 8,
+      price: 5.99,
+      shortDesc: "Gamble and lets see if you can win",
+      description:
+        "Feel as if you go tluck on your side well lets put it to the test and see if it really works"
     }
   ]
 };
