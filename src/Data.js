@@ -51,6 +51,14 @@ export default {
       shortDesc: "The Ghetto in the Sea",
       description:
         "The one of many of the ghettos in the Cape the overlooked."
+    },
+    {
+      name: "My View",
+      stock: 1,
+      price: 54.99,
+      shortDesc: "The view of the Person who has been it for a while",
+      description:
+        "Take a look at things from my view and see what i see for its the last time."
     }
   ]
 };
